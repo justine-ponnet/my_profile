@@ -1,0 +1,145 @@
+body {
+background-color: #F6F9FC;
+color: black;
+font-weight: bold;
+font-family: Ubuntu;
+font-size: 17px;
+}
+
+h1 {
+color: #03045e;
+font-family: Acme;
+font-weight: bold;
+letter-spacing: 3px;
+font-size: 35px;
+}
+
+h2, h3, h4, h5 {
+color: #023e8a;
+font-family: Noto Sans SC;
+font-weight: bold;
+letter-spacing: 1px;
+font-size: 20px;
+}
+
+a{
+	font-family: Lato
+	text-decoration: none;
+	color: yellow;
+	font-weight: bold;
+}
+
+a:hover{
+	color:#4d3351;
+	font-weight: bold;
+}
+
+div {
+background: #D7E3FC;
+margin: 100px auto;
+width: 500px auto;
+border-radius: 5px;
+box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+}
+
+.container{
+	width: 900px;
+	margin: 40px auto;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .img-circle{
+    border-radius: 50%;
+	width:50px;
+	height:50px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white{
+	background:#FFFFFF;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius:4px;
+	margin: 40px 40px;
+	text-align: center;
+	width: 500px auto;
+}
+
+.img-circle{
+	border-radius: 50%;
+	width:250px;
+	height:250px;
+}
+
+.img-inline{
+	border-radius: 50%;
+	display: inline;
+	padding:10px;
+	width:150px;
+	height:150px;
+}
+
+.btn-blue{
+	background-color:#4d3351;
+	color:white;
+	padding: 15px 20px;
+	border-radius:4px;
+}
+
+.btn-blue:hover{
+    background-color:#B1A6A6;
+    color:white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+}
+.list-inline li {
+	display: inline;
+	padding:10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color:#929AAB;
+}
+.list-inline i:hover{
+	font-size: 50px;
+	color:#03045e;
+}
+
+
+#btn-circle {
+	background-color:#929AAB;
+	color:white;
+	padding: 15px 20px;
+	border-radius:50%;
+}
+
+#btn-circle:hover{
+	background-color:#03045e;
+    color:white;
+}
+    
+#text-bottommargin p{
+	margin-bottom: 40px;
+}
+
+#introduction p{
+	margin-top: 40px;
+}
